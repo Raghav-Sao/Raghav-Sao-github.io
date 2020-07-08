@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        canvas {
+            outline: none;
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+            /* mobile webkit */
+        }
+
         html,
         body {
             height: 100%;
@@ -39,7 +45,9 @@
             background: #fbf8f3;
             padding: 0 10px;
             visibility: hidden;
-
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         button.restart {

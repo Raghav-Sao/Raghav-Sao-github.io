@@ -69,6 +69,8 @@ function updateWinner  (winner) {
 }
 
 function handleBoardClick(e = {}) {
+    window.navigator && window.navigator.vibrate && window.navigator.vibrate(50);
+    
     if(currentPlayer === AI || winningPlayer) {
         return;
     }
