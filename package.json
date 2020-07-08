@@ -1,0 +1,23 @@
+{
+  "name": "ticTacToe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ticTacToe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raghav-Sao/ticTacToe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raghav-Sao/ticTacToe/issues"
+  },
+  "homepage": "https://github.com/Raghav-Sao/ticTacToe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
