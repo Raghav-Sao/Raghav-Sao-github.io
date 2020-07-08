@@ -303,6 +303,7 @@ function restartGame() {
     resultElement.style.visibility = 'hidden';
     context.canvas.style.border = 'transparent';
     context.canvas.style.opacity = 1;
+    currentPlayer = HUMAN;
 
 }
 
