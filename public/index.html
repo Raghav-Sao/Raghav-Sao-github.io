@@ -16,11 +16,26 @@
         html,
         body {
             height: 100%;
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            position: relative;
+            margin: 0;
         }
+
+        @media only screen and (min-width: 600px) {
+            body:before {
+                content: '';
+                border-right: 4px double rgba(229, 12, 49, 0.3);
+                height: 100%;
+                left: 126px;
+                top: 0;
+                position: absolute;
+            }
+        }
+
 
         .backgroundImage {
             background-image: url("imgs/bg.png");
